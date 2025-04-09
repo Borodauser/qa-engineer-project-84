@@ -67,3 +67,15 @@
   expected-result: |
     Товар удаляется из корзины
 
+- summary: | 
+    Проверить наличие мобильной версии
+  requirement: |
+    Сайт должен иметь мобильную версию
+  prerequisites: |
+    No data
+  test-data: |
+    No data
+  steps:
+  - С помощью DevTools открыть страницу каталога на эмулированном окружении, например samsung galaxy s20 ultra
+  expected-result: |
+    Открывается страница мобильной версии сайта
