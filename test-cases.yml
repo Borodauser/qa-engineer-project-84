@@ -53,9 +53,17 @@
   expected-result: |  
    В правом верхнем углу отображается пополнение корзины
 
-- summary: |
-requirement: |
-prerequisites: |
-test-data: |
-steps:
-expected-result: |
+- summary: | 
+    Удаление товара из корзины
+  requirement: |
+    На странице корзины пользователь cможет удалить товар из корзины
+  prerequisites: |
+    Добавить любой товар в корзину, например Essence Mascara Lash Princess
+  test-data: |
+    No data
+  steps:
+  - Зайти в корзину
+  - Нажать Delete рядом с товаром
+  expected-result: |
+    Товар удаляется из корзины
+
