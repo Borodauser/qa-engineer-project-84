@@ -1,0 +1,43 @@
+---
+- summary: |
+    Не работает поиск товара по ключевому слову
+  environment: |
+    Windows 10 Pro
+    Сборка 19045
+    Google Chrome
+    Версия 134.0.6998.178
+  steps-to-reproduce: |
+    1. В поле Search ввести название товара Fork
+  expected-result: |
+    Поиск покажет товар с названием Fork
+  actual-result: |
+    Страница каталога выдает сообщение Nothing found!
+
+- summary: |
+    Сброс фильтра товаров по категории
+  environment: |
+    Windows 10 Pro
+    Сборка 19045
+    Google Chrome
+    Версия 134.0.6998.178
+  steps-to-reproduce: |
+    1. В фильтре товаров выбрать категорию, например Groceries 
+  expected-result: |
+    В поле Category есть поле сброса категории
+    Есть отдельная кнопка Clear All для всех фильтров
+  actual-result: |
+    Нет никакой возможности сбросить фильтр по категории
+
+- summary: |
+    Добавление нескольких единиц одной позиции товара
+  environment: |
+    Windows 10 Pro
+    Сборка 19045
+    Google Chrome
+    Версия 134.0.6998.178
+  steps-to-reproduce: |
+    1. Нажать на кнопку Add to Cart у любого товара, например Protein Powder
+  expected-result: |
+    В поле с товаром можно добавить нужное количество через знак +
+  actual-result: |
+    Добавляется одна единица товара при нажатии на Add to Cart
