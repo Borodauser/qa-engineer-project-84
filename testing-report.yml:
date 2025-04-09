@@ -1,1 +1,40 @@
+---
+- summary: | 
+    Поиск товара по ключевому слову
+  status: fail
 
+- summary: | 
+    Поиск товара с помощью фильтра 
+  status: pass
+
+- summary: | 
+    Проверка открытия карточки товара
+  status: pass
+
+- summary: | 
+    Добавление товара в корзину
+  status: pass
+
+- summary: | 
+    Просмотр корзины
+  status: pass
+
+- summary: | 
+    Удаление товара из корзины
+  status: pass
+
+- summary: | 
+    Проверить наличие мобильной версии
+  status: pass
+
+- summary: | 
+    Добавление нескольких единиц одной позиции товара
+  status: fail
+
+- summary: | 
+    Сброс фильтра товаров по категории
+  status: fail
+
+- summary: | 
+    Сброс фильтра товаров по бренду
+  status: pass
